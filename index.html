@@ -3,39 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tt portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
+    <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
+    <link 
+    rel="stylesheet" 
+    href="style.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
   <body>
 
-    <img src="image/pf.JPG"/>
-  
-    <h2>Hi my name is Touch. I am studying at Chiangmai University.<br> 
-      Nice to meet you!
-    </h2>
+      <nav class="navbar navbar-expand-lg sticky-top " style="background-color: #995db5 ">
+        <div class="container-fluid ">
+          <a class="navbar-brand fs-3  text-light " href="#" >My Portfolio</a>
+            <div class="d-flex fs-5 p-2 ">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  nav-item ">
+                
+                  <a class="nav-link text-light" href="index.html">Home</a>
+                  <a class="nav-link text-light" href="exp.html">Experience</a>
+                  <a class="nav-link text-light" href="gallery.html">Gallery</a>
+                  <a class="nav-link text-light" href="contact.html">Contact</a>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>         
+      </nav>
+      
+      <div class="d-flex justify-content-center align-items-center mx-auto gap-3 pt-3" style="max-width: 700px">
+        <div >
+          <img src="images/IMG_3170 - Copy.jpg " class="rounded-circle " width="200" height="200" style="object-fit: cover;border: solid rgb(255, 255, 255) 5px;">
+        </div>  
+        <div class="d-none d-sm-block">
+          <div class="display-6 mb-3 text-black">Sippakon Khammisawang </div>
+        <div style="color: gray;" >
+          Hi, my name is sippakon khammisawang. I studying at Chiangmai University.
+          Studying Computer Engineering.I Love movies, musics,sleeping
+          and drawing.
+        </div>
+      </div>
+    </div> 
+    <div class="display-5 d-sm-none text-center my-3 text-dark">sippakon khammisawang</div>
     
-    <h3>Skill</h3>
+    <p class="text-center fs-3 " style="color: rgb(6, 6, 6) ">SKILLS</p>
 
-    <div class="skill-container">
-      <h4 class="skill-header">Programming</h4>
-      <p>I have experience coding C++ and HTML a little</p>
+    <div style="max-width: 700px" class="mx-auto px-3 text-light">
+
+      <div class="d-flex mb-3 shadow-sm rounded-4 bg-hover" style="background-color: #995db5 " >
+        <div class="my-rounded-left image-container">
+          <img src="images/scratch.png" width="150px" height="150px" style="object-fit: cover" class="rounded-start-4 d-none d-sm-block">
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5 text-light">Programming</p>
+          <span class="text-light">
+            Coding is fun. I used scratch to create a game in a project from year 1, semester 1.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex mb-3 shadow-sm rounded-4 bg-hover" style="background-color: #995db5 ">
+        <div class="p-4">
+          <p class="fw-semibold fs-5 text-light">Programming</p>
+          <span class="text-light">
+            In year 1, semester 2, I used C++ for projects. At that time, 
+            I was working on the book borrowing system.
+          </span>
+        </div>
+        <div class="my-rounded-right image-container">
+          <img src="images/c++.jpg" width="150px" height="150px" style="object-fit: cover" class="rounded-end-4 d-none d-sm-block">
+        </div>
+      </div>
+
+      <div class="d-flex mb-3 shadow-sm rounded-4 bg-hover" style="background-color: #995db5 ">
+        <div class="my-rounded-left image-container">
+          <img src="images/html.jpg" width="150px" height="150px" style="object-fit: cover" class="rounded-start-4 d-none d-sm-block">
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5 text-light">Current Skill</p>
+          <span class="text-light">
+            I'm learning to html , I really like it. 
+            Because I have written the code and used my imagination and art as well.
+          </span>
+        </div>
+      </div>
     </div>
-
-    <div class="skill-container">
-      <h4 class="skill-header">Hobby</h4>
-      <p>Drawing , Listen To Music And Sleep 🎨😪🎧 </p>
-    </div>
-    
-    <header>
-      <a href="#" class="Portfolio">Portfolio</a>
-      <ul>
-        <li><a href="/Home.html">Home</a></li>
-        <li><a href="/Experience.html">Experience</a></li>
-        <li><a href="/My Contact.html">My Contact</a></li>
-      </ul>
-    </header>
-
+    <p class="text-center m-4" style="color: grey;">
+      © 2023 sippakon_khammisawang.com by Sippakon khammisawang
+    </p>  
+</div>   
   </body>
-
 </html>
